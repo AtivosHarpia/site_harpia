@@ -53,6 +53,8 @@ export default class MyDocument extends Document {
 
           <link rel="shortcut icon" href="/logo.png" type="image/png" />
         </Head>
+
+        <title>Ativos Harpia</title>
         <body>
           <Main />
           <NextScript />
