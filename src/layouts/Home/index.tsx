@@ -19,7 +19,7 @@ export const HomeLayout = () => {
               beneficiando seu negócio e toda a sociedade.
             </p>
 
-            <Link href="https://api.whatsapp.com/send?phone=555569999752935&text=Ol%C3%A1%2C%20eu%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site!">
+            <Link href="https://api.whatsapp.com/send?phone=5569999752935&text=Ol%C3%A1%2C%20eu%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site!">
               <a target="_blank">
                 <button>Entre em contato</button>
               </a>

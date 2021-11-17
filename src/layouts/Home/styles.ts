@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: calc(100vh - 8rem);
 
   @media screen and (max-width: 768px) {
-    height: calc(100vh - 11rem);
+    height: calc(100vh - 7.5rem);
   }
 `;
 
@@ -74,6 +74,7 @@ export const Left = styled.section`
 
   @media screen and (max-width: 768px) {
     align-items: center;
+    padding: 4rem 2rem;
     p {
       width: 100%;
     }
