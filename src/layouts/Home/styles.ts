@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: calc(100vh - 8rem);
 
   @media screen and (max-width: 768px) {
-    height: calc(100vh - 7.5rem);
+    height: 100%;
   }
 `;
 
@@ -21,14 +21,22 @@ export const Content = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 0 1rem;
+    margin: 0 auto 2rem 0;
+  }
+
+  .button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   a {
-    width: 15rem;
+    width: 20rem;
   }
 
   button {
-    width: 15rem;
+    width: 20rem;
     padding: 1rem;
     border-radius: 0.4rem;
     background: var(--green);
@@ -52,7 +60,7 @@ export const Left = styled.section`
   justify-content: center;
 
   gap: 2rem;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 6rem 2rem;
   border-radius: 0.5rem;
 
@@ -64,17 +72,19 @@ export const Left = styled.section`
   h1 {
     font-weight: 700;
     font-size: 2rem;
+    text-align: center;
   }
 
   p {
-    width: 50%;
+    width: 100%;
     font-size: 1.2rem;
+    line-height: 2rem;
     text-align: justify;
   }
 
   @media screen and (max-width: 768px) {
     align-items: center;
-    padding: 4rem 2rem;
+    padding: 2rem;
     p {
       width: 100%;
     }
